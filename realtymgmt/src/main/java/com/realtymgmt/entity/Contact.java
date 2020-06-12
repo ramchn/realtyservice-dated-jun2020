@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -17,7 +18,8 @@ public class Contact {
 	
 	private String contactName;
 	
-	private String contactEmail;
+	@OneToOne
+	private Login login;
 	
 	private String servicesOffered;
 
@@ -29,12 +31,12 @@ public class Contact {
 		this.contactName = contactName;
 	}
 
-	public String getContactEmail() {
-		return contactEmail;
+	public Login getLogin() {
+		return login;
 	}
 
-	public void setContactEmail(String contactEmail) {
-		this.contactEmail = contactEmail;
+	public void setLogin(Login login) {
+		this.login = login;
 	}
 
 	public String getServicesOffered() {

@@ -20,10 +20,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.realtymgmt.alert.Email;
 import com.realtymgmt.entity.Contact;
+import com.realtymgmt.entity.Login;
 import com.realtymgmt.entity.Owner;
 import com.realtymgmt.entity.Task;
 import com.realtymgmt.entity.Tenant;
 import com.realtymgmt.repository.ContactRepository;
+import com.realtymgmt.repository.LoginRepository;
 import com.realtymgmt.repository.OwnerRepository;
 import com.realtymgmt.repository.TaskRepository;
 import com.realtymgmt.repository.TenantRepository;
@@ -45,18 +47,60 @@ public class MainController {
   private ContactRepository contactRepository;
   
   @Autowired
+  private LoginRepository loginRepository;
+  
+  @Autowired
   private Environment env;
-      
-  // tenant services
-  @GetMapping("/tenant")
-  public @ResponseBody String getTenant(@RequestParam(defaultValue = "1") String id) {
-	  
-	  Optional<Tenant> opt = tenantRepository.findById(Integer.valueOf(id));
-	  
-	  return opt.isPresent() ? opt.get().toString() : "";
-	  	  
+  
+  //sign up services
+  @GetMapping("/signup")
+  public String signupForm(Model model, @RequestParam(defaultValue = "99") String ownerId) {		
+	
+	Optional<Owner> opt = ownerRepository.findById(Integer.valueOf(ownerId));
+		
+	model.addAttribute("owner", opt.isPresent() ? opt.get() : new Owner());
+	
+	return "signupform";
   }
   
+  @PostMapping("/signup")
+  public String createUser(Model model, String usertype, String name, String email, String password, String services, String ownerId) {
+	  
+	  
+	  Login l = new Login();
+	  l.setEmailAddress(email);
+	  l.setLoginPassword(password);
+	  loginRepository.save(l);
+	  model.addAttribute("login", l);
+	  	  
+	  if(usertype.equals("contact")) {		
+		  Contact c = new Contact();
+		  c.setContactName(name);
+		  c.setServicesOffered(services);
+		  c.setLogin(l);
+		  contactRepository.save(c);
+		  
+	  } else if (usertype.equals("owner")) {
+		  Owner o = new Owner();
+		  o.setOwnerName(name);
+		  o.setLogin(l);
+		  ownerRepository.save(o);
+		  
+	  } else if (usertype.equals("tenant")) {
+		  
+		  Optional<Owner> opt = ownerRepository.findById(Integer.valueOf(ownerId));
+		  
+		  Tenant t = new Tenant();
+		  t.setTenantName(name);
+		  t.setLogin(l);
+		  t.setOwner(opt.isPresent() ? opt.get() : new Owner());	
+		  tenantRepository.save(t);
+		  
+	  }
+	  
+	  return "usercreated";
+  }      
+  // tenant services
   @GetMapping("/tenant/all")
   public @ResponseBody Iterable<Tenant> getAllTenants() {
 	  

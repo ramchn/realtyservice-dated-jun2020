@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -17,7 +18,8 @@ public class Owner {
 	
 	private String ownerName;
 	
-	private String ownerEmail;
+	@OneToOne
+	private Login login;
 	
 	public Integer getOwnerId() {
 		return ownerId;
@@ -31,13 +33,13 @@ public class Owner {
 		this.ownerName = ownerName;
 	}
 
-	public String getOwnerEmail() {
-		return ownerEmail;
+	public Login getLogin() {
+		return login;
 	}
 
-	public void setOwnerEmail(String ownerEmail) {
-		this.ownerEmail = ownerEmail;
+	public void setLogin(Login login) {
+		this.login = login;
 	}
-	
-	
+
+		
 }
