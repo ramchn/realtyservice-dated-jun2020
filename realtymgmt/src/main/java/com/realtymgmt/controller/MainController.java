@@ -28,6 +28,7 @@ import com.realtymgmt.repository.OwnerRepository;
 import com.realtymgmt.repository.TaskRepository;
 import com.realtymgmt.repository.TenantRepository;
 
+// comment added
 @Controller 
 public class MainController {
 	
