@@ -7,6 +7,6 @@
 <body>
 	<h2>Task Saved</h2>
     <p th:text="'task reference number: ' + ${task.taskId}" />
-    <p th:text="'email sent to: ' + ${task.owner.ownerEmail}" />
+    <p th:text="'email sent to: ' + ${task.owner.login.emailAddress}" />
 </body>
 </html> 

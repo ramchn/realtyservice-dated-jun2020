@@ -7,6 +7,6 @@
 <body>
 	<h2>Task Assigned</h2>
     <p th:text="'task reference number: ' + ${task.taskId}" />
-    <p th:text="'email sent to: ' + ${task.contact.contactEmail}" />
+    <p th:text="'email sent to: ' + ${task.contact.login.emailAddress}" />
 </body>
 </html> 
