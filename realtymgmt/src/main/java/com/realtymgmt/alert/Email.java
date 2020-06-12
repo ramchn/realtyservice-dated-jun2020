@@ -41,7 +41,7 @@ public class Email {
 		   Message msg = new MimeMessage(getSession(getProperties()));
 		   msg.setFrom(new InternetAddress(env.getProperty("email.address"), false));
 
-		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getOwner().getOwnerEmail()));
+		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getOwner().getLogin().getEmailAddress()));
 		   msg.setSubject("Task Pending");
 		   
 		   msg.setContent("Task created by " + t.getTenant().getTenantName() + " on " + t.getTaskCreateddate() + ". <a href='http://localhost:8080/owner/assigncontact?taskId="+ t.getTaskId() +"'>Click here</a> to view task and assign technician.", "text/html");
@@ -56,7 +56,7 @@ public class Email {
 		   Message msg = new MimeMessage(getSession(getProperties()));
 		   msg.setFrom(new InternetAddress(env.getProperty("email.address"), false));
 
-		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getContact().getContactEmail()));
+		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getContact().getLogin().getEmailAddress()));
 		   msg.setSubject("Task Assigned");
 		   
 		   msg.setContent("Task Assigned by " + t.getOwner().getOwnerName() + " on " + t.getTaskModifieddate() + ". <a href='http://localhost:8080/contact/taketask?taskId="+ t.getTaskId() +"'>Click here</a> to view task", "text/html");
@@ -71,8 +71,8 @@ public class Email {
 		   Message msg = new MimeMessage(getSession(getProperties()));
 		   msg.setFrom(new InternetAddress(env.getProperty("email.address"), false));
 
-		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getOwner().getOwnerEmail()));
-		   msg.setRecipients(Message.RecipientType.CC, InternetAddress.parse(t.getTenant().getTenantEmail()));
+		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getOwner().getLogin().getEmailAddress()));
+		   msg.setRecipients(Message.RecipientType.CC, InternetAddress.parse(t.getTenant().getLogin().getEmailAddress()));
 		   msg.setSubject("Task Completed");
 		   
 		   msg.setContent("Task Completed by " + t.getContact().getContactName() + " on " + t.getTaskModifieddate() + ".", "text/html");
