@@ -19,7 +19,15 @@ public class Owner {
 	private String ownerName;
 	
 	@OneToOne
-	private Login login;
+	private User user;
+	
+	public Owner() {
+		
+	}
+	
+	public Owner(Integer id) {
+		ownerId = id;
+	}
 	
 	public Integer getOwnerId() {
 		return ownerId;
@@ -33,12 +41,12 @@ public class Owner {
 		this.ownerName = ownerName;
 	}
 
-	public Login getLogin() {
-		return login;
+	public User getUser() {
+		return user;
 	}
 
-	public void setLogin(Login login) {
-		this.login = login;
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 		

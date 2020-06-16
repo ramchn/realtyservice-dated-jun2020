@@ -3,11 +3,18 @@
 <head>
     <title>Assign Contact</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script>
+	function formsubmit(num) {
+		document.getElementById("tid").value=document.getElementById("taskId"+num).value;
+		document.getElementById("cid").value=document.getElementById("contactId"+num).value;
+		document.getElementById("form1").submit();
+	}
+	</script>
 </head>
 <body>
 	<h2>Welcome <span th:text="${task.owner.ownerName}">Owner</span></h2>
 	<h3>Task Details</h3>
-	<table>
+	<table cellpadding="5" cellspacing="5">
 		<tr>
 		<td>Task Name</td><td th:text="${task.taskName}">task name</td>
 		</tr>	
@@ -26,23 +33,26 @@
 	</table>
 	<br/><br/>
 	<h3>Assign a contact from the below list to the above task</h3>
-    <form action="#" th:action="@{/owner/updatetask}" method="post">
-    	<table>
+    
+    	<table cellpadding="5" cellspacing="5">
 			<tr>
 				<th>Contact Name</th>
 				<th>Services Offered</th>
 			</tr>				
-			<tr th:each="contact: ${contacts}">
+			<tr th:each="contact, cstat: ${contacts}">
 				<td th:text="${contact.contactName}">contact name</td>
 				<td th:text="${contact.servicesOffered}">services offered</td>
-				<td>
-					<input type="hidden" name="taskId" th:value="${task.taskId}" />
-					<input type="hidden" name="contactId" th:value="${contact.contactId}" />
-					<input type="submit" value="Assign" />
+				<td>					
+					<input type="hidden" th:id="'taskId'+${cstat.index}" th:value="${task.taskId}" />
+					<input type="hidden" th:id="'contactId'+${cstat.index}" th:value="${contact.contactId}" />
+					<input type="button" th:onclick="'formsubmit('+${cstat.index}+')'" value="Assign" />
 				</td>
-			</tr>	
-					
+			</tr>						
 	    </table>
-    </form>
+	    <form id="form1" action="#" th:action="@{/owner/updatetask}" method="post">
+	    	<input type="hidden" id="tid" name="taskId" value="" />
+			<input type="hidden" id="cid" name="contactId" value="" />
+	    </form>
+    <a th:href="@{'/owner/home?email='+${task.tenant.owner.user.emailAddress}}">go back</a>
 </body>
 </html>

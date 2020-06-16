@@ -6,6 +6,7 @@
 </head>
 <body>
 	<h2>User Created!</h2>   
-	<p th:text="'login reference number: ' + ${login.loginId}" />
+	<p th:text="'user login id: ' + ${user.emailAddress}" />
+	<p><a href="/signin">click here</a> to login</p>
 </body>
 </html> 

@@ -1,12 +1,16 @@
 <!DOCTYPE HTML>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-    <title>Getting Started: Handling Form Submission</title>
+    <title>Task Assigned</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
 	<h2>Task Assigned</h2>
     <p th:text="'task reference number: ' + ${task.taskId}" />
-    <p th:text="'email sent to: ' + ${task.contact.login.emailAddress}" />
+    <p th:text="'email sent to: ' + ${task.contact.user.emailAddress}" />
+    <a th:href="@{'/owner/home?email='+${task.owner.user.emailAddress}}">home</a>
+    <form th:action = "@{/logout}" method = "post">
+         <input type = "submit" value = "Sign Out"/>
+      </form>
 </body>
 </html> 

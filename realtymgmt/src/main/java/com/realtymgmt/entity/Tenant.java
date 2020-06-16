@@ -20,11 +20,18 @@ public class Tenant {
   	private String tenantName;
 
   	@OneToOne
-  	private Login login;
+  	private User user;
   
   	@ManyToOne
   	private Owner owner;
   
+  	public Tenant() {
+
+  	}
+  	
+  	public Tenant(Integer id) {
+  		tenantId = id;
+  	}
 
 	public Integer getTenantId() {
 		return tenantId;
@@ -39,12 +46,12 @@ public class Tenant {
 		this.tenantName = tenantName;
 	}
 	
-	public Login getLogin() {
-		return login;
+	public User getUser() {
+		return user;
 	}
 
-	public void setLogin(Login login) {
-		this.login = login;
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 	public Owner getOwner() {
@@ -54,10 +61,5 @@ public class Tenant {
 	public void setOwner(Owner owner) {
 		this.owner = owner;
 	}
-
-	@Override
-    public String toString() { 
-        return String.format("Tenant Id = " + getTenantId() + "; Tenant Name = " + getTenantName() + "; Tenant Email = " + login.getEmailAddress() + "; Owner  = " + getOwner()); 
-    } 
   	
 }

@@ -5,10 +5,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-	<h2>Welcome <span th:text="${task.contact.contactName}">Owner</span></h2>
+	<h2>Welcome <span th:text="${task.contact.contactName}">Contact</span></h2>
 	<h3>Task Details</h3>
 	<form action="#" th:action="@{/contact/closetask}" th:object="${task}" method="post">
-	<table>
+	<table cellpadding="5" cellspacing="5">
 		<tr>
 		<td>Task Name</td><td th:text="${task.taskName}">task name</td>
 		</tr>	
@@ -26,7 +26,8 @@
 		</tr>		
 	</table>
 	<br/>
-	<h4>Once task completed, click here to <input type="hidden" name="taskId" th:value="${task.taskId}" /><input type="submit" value="Close"/></h4>
+	<h4>If completed, click here to <input type="hidden" name="taskId" th:value="${task.taskId}" /><input type="submit" value="Close"/></h4>
+    <a th:href="@{'/contact/home?email='+${task.contact.user.emailAddress}}">go back</a>
     </form>    	
 </body>
 </html>

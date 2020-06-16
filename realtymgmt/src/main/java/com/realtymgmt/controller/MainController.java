@@ -1,31 +1,37 @@
 package com.realtymgmt.controller;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.realtymgmt.alert.Email;
+import com.realtymgmt.entity.Access;
 import com.realtymgmt.entity.Contact;
-import com.realtymgmt.entity.Login;
+import com.realtymgmt.entity.User;
 import com.realtymgmt.entity.Owner;
 import com.realtymgmt.entity.Task;
 import com.realtymgmt.entity.Tenant;
+import com.realtymgmt.repository.AccessRepository;
 import com.realtymgmt.repository.ContactRepository;
-import com.realtymgmt.repository.LoginRepository;
+import com.realtymgmt.repository.UserRepository;
 import com.realtymgmt.repository.OwnerRepository;
 import com.realtymgmt.repository.TaskRepository;
 import com.realtymgmt.repository.TenantRepository;
@@ -47,11 +53,24 @@ public class MainController {
   private ContactRepository contactRepository;
   
   @Autowired
-  private LoginRepository loginRepository;
+  private UserRepository userRepository;
+  
+  @Autowired
+  private AccessRepository accessRepository;
   
   @Autowired
   private Environment env;
   
+  @Autowired
+  JdbcTemplate jdbcTemplate;
+  
+  //index
+  @GetMapping("/index")
+  public String index(Model model) {		
+		
+	return "index";
+  }
+    
   //sign up services
   @GetMapping("/signup")
   public String signupForm(Model model, @RequestParam(defaultValue = "99") String ownerId) {		
@@ -67,24 +86,34 @@ public class MainController {
   public String createUser(Model model, String usertype, String name, String email, String password, String services, String ownerId) {
 	  
 	  
-	  Login l = new Login();
-	  l.setEmailAddress(email);
-	  l.setLoginPassword(password);
-	  loginRepository.save(l);
-	  model.addAttribute("login", l);
+	  User u = new User();
+	  u.setEmailAddress(email);
+	  u.setUserPassword(new BCryptPasswordEncoder().encode(password));
+	  userRepository.save(u);
+	  model.addAttribute("user", u);
 	  	  
 	  if(usertype.equals("contact")) {		
 		  Contact c = new Contact();
 		  c.setContactName(name);
 		  c.setServicesOffered(services);
-		  c.setLogin(l);
+		  c.setUser(u);
 		  contactRepository.save(c);
+		  
+		  Access a = new Access();
+		  a.setAuthority("ROLE_CONTACT");
+		  a.setUser(u);
+		  accessRepository.save(a);
 		  
 	  } else if (usertype.equals("owner")) {
 		  Owner o = new Owner();
 		  o.setOwnerName(name);
-		  o.setLogin(l);
+		  o.setUser(u);
 		  ownerRepository.save(o);
+		  
+		  Access a = new Access();
+		  a.setAuthority("ROLE_OWNER");
+		  a.setUser(u);
+		  accessRepository.save(a);
 		  
 	  } else if (usertype.equals("tenant")) {
 		  
@@ -92,21 +121,58 @@ public class MainController {
 		  
 		  Tenant t = new Tenant();
 		  t.setTenantName(name);
-		  t.setLogin(l);
+		  t.setUser(u);
 		  t.setOwner(opt.isPresent() ? opt.get() : new Owner());	
 		  tenantRepository.save(t);
+		  
+		  Access a = new Access();
+		  a.setAuthority("ROLE_TENANT");
+		  a.setUser(u);
+		  accessRepository.save(a);
 		  
 	  }
 	  
 	  return "usercreated";
-  }      
-  // tenant services
-  @GetMapping("/tenant/all")
-  public @ResponseBody Iterable<Tenant> getAllTenants() {
-	  
-    return tenantRepository.findAll();
+  }  
+  
+  //sign in services
+  @GetMapping("/signin")
+  public String signinForm(Model model) {		
+		
+	return "signinform";
   }
-    
+  
+  //authenticated home
+  @GetMapping("/home")
+  public String home(Model model) {		
+	return "home";
+  }
+  
+  
+  // tenant services
+  @GetMapping("/tenant/home")
+  public String tenant(Model model, @RequestParam(defaultValue = "one@one.one") String email) {
+	
+	Tenant t = jdbcTemplate.queryForObject("select tenant_id from tenant where user_email_address = ?", new Object[]{email}, (rs, rowNum) -> 
+			new Tenant(rs.getInt("tenant_id")));
+	
+	Optional<Tenant> opt = tenantRepository.findById(Integer.valueOf(t.getTenantId()));
+	Tenant tenant = opt.isPresent() ? opt.get() : new Tenant();	  
+	
+	List<Task> talst = jdbcTemplate.queryForList("select task_id from task where tenant_tenant_id = ?", new Object[]{t.getTenantId()}, Task.class);
+	
+	List<Integer> ids = new ArrayList<>();
+	
+	for(Task ta : talst) {
+		ids.add(ta.getTaskId());
+	}
+		
+	model.addAttribute("tenant", tenant);
+	model.addAttribute("tasks", taskRepository.findAllById(ids));
+		
+	return "tenanthome";
+  }
+  
   @GetMapping("/tenant/createtask")
   public String taskForm(Model model, @RequestParam(defaultValue = "1") String tenantId) {
 	
@@ -144,6 +210,47 @@ public class MainController {
   }
   
   // Owner Services
+  @GetMapping("/owner/home")
+  public String owner(Model model, @RequestParam(defaultValue = "one@one.one") String email) {		
+	
+	Owner o = jdbcTemplate.queryForObject("select owner_id from owner where user_email_address = ?", new Object[]{email}, (rs, rowNum) -> 
+		new Owner(rs.getInt("owner_id")));
+
+	Optional<Owner> opt = ownerRepository.findById(Integer.valueOf(o.getOwnerId()));
+	Owner owner = opt.isPresent() ? opt.get() : new Owner();
+	
+	List<Tenant> telst = jdbcTemplate.queryForList("select tenant_id from tenant where owner_owner_id = ?", new Object[]{o.getOwnerId()}, Tenant.class);
+	
+	List<Integer> teids = new ArrayList<>();
+	
+	for(Tenant te : telst) {
+		teids.add(te.getTenantId());
+	}
+	
+	Iterable<Tenant> tenants = tenantRepository.findAllById(teids);
+	
+	Map<Tenant, Iterable<Task>> tenantTasks = new HashMap<Tenant, Iterable<Task>>();
+	
+	for(Tenant tenant : tenants) {
+		
+		List<Task> talst = jdbcTemplate.queryForList("select task_id from task where tenant_tenant_id = ?", new Object[]{tenant.getTenantId()}, Task.class);
+		
+		List<Integer> ids = new ArrayList<>();
+		
+		for(Task ta : talst) {
+			ids.add(ta.getTaskId());
+		}
+		
+		tenantTasks.put(tenant, taskRepository.findAllById(ids));
+		
+	}
+		
+	model.addAttribute("owner", owner);
+	model.addAttribute("tenantTasks", tenantTasks);
+		
+	return "ownerhome";
+  }
+  
   @GetMapping("owner/assigncontact")
   public String contactForm(Model model, @RequestParam(defaultValue = "1") String taskId) {
 	  
@@ -177,6 +284,30 @@ public class MainController {
   
  
   // contact services
+  @GetMapping("/contact/home")
+  public String contact(Model model, @RequestParam(defaultValue = "one@one.one") String email) {		
+	
+	Contact c = jdbcTemplate.queryForObject("select contact_id from contact where user_email_address = ?", new Object[]{email}, (rs, rowNum) -> 
+		new Contact(rs.getInt("contact_id")));
+
+	Optional<Contact> opt = contactRepository.findById(Integer.valueOf(c.getContactId()));
+	Contact contact = opt.isPresent() ? opt.get() : new Contact();
+			
+	List<Task> talst = jdbcTemplate.queryForList("select task_id from task where contact_contact_id = ?", new Object[]{c.getContactId()}, Task.class);
+	
+	List<Integer> ids = new ArrayList<>();
+	
+	for(Task ta : talst) {
+		ids.add(ta.getTaskId());
+	}
+		
+	model.addAttribute("contact", contact);
+	model.addAttribute("tasks", taskRepository.findAllById(ids));
+	
+		
+	return "contacthome";
+  }
+  
   @GetMapping("contact/taketask")
   public String viewTask(Model model, @RequestParam(defaultValue = "1") String taskId) {
 	  

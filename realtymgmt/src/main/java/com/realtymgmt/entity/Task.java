@@ -37,6 +37,14 @@ public class Task {
 	
 	private Date taskModifieddate;
 	
+	public Task() {
+		
+	}
+	
+	public Task(Integer id) {
+		taskId = id;
+	}
+	
 	public Integer getTaskId() {
 		return taskId;
 	}

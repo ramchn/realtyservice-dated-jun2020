@@ -19,10 +19,17 @@ public class Contact {
 	private String contactName;
 	
 	@OneToOne
-	private Login login;
+	private User user;
 	
 	private String servicesOffered;
+	
+	public Contact() {
+		
+	}
 
+	public Contact(Integer id) {
+		contactId = id;
+	}
 	public String getContactName() {
 		return contactName;
 	}
@@ -31,12 +38,12 @@ public class Contact {
 		this.contactName = contactName;
 	}
 
-	public Login getLogin() {
-		return login;
+	public User getUser() {
+		return user;
 	}
 
-	public void setLogin(Login login) {
-		this.login = login;
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 	public String getServicesOffered() {

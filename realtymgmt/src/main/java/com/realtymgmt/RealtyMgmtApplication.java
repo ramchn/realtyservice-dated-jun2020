@@ -12,5 +12,4 @@ public class RealtyMgmtApplication {
 		SpringApplication.run(RealtyMgmtApplication.class, args);
 	}
 
-	
 }
