@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Realty Management Services</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h2 th:inline = "text">Hello [[${#httpServletRequest.remoteUser}]]!</h2>
+    <p> you have successfully logged in</p>  
+    <form th:action = "@{/logout}" method = "post">
+         <input type = "submit" value = "Sign Out"/>
+    </form>   	
+</body>
+</html> 

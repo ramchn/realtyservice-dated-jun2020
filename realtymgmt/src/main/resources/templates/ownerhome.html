@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Realty Management Services</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h2 th:inline = "text">Hello [[${owner.ownerName}]]!</h2>
+	 <div th:if="${not #lists.isEmpty(tenantTasks)}">
+	 	<p>Tasks created by Tenant(s)</p>
+	   	<table>
+    		<tr th:each="element: ${tenantTasks}">
+	    		<td>
+	    		 <table cellpadding="5" cellspacing="5">
+	    		 	<tr><td colspan="5" th:text="'Tenant: ' + ${element.key.tenantName}">tenant name</td></tr>
+	           		<tr th:each="task : ${element.value}">
+		                <td th:text="${task.taskName}">task name</td>
+		                <td th:text="${task.taskDescription}">task description</td>
+		                <td>
+		                	<span th:if="${task.taskStatus == 'New'}">
+		                		<a th:inline = "text" th:href="@{'/owner/assigncontact?taskId='+${task.taskId}}">[[${task.taskStatus}]]</a>
+		                	</span>
+		                	<span th:unless="${task.taskStatus == 'New'}" th:inline="text">
+		                		[[${task.taskStatus}]]
+		                	</span>
+		                </td>
+		                <td th:text="${task.taskCreateddate}">task created date</td>
+		                <td></td>
+	            	</tr>
+	       		 </table>
+	     		</td>
+     		 </tr>    							
+	    </table>
+	 </div>
+    <form th:action = "@{/logout}" method = "post">
+         <input type = "submit" value = "Sign Out"/>
+    </form>   	
+</body>
+</html> 
