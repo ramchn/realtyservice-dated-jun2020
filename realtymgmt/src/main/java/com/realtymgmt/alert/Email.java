@@ -41,7 +41,7 @@ public class Email {
 		   Message msg = new MimeMessage(getSession(getProperties()));
 		   msg.setFrom(new InternetAddress(env.getProperty("email.address"), false));
 
-		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getOwner().getUser().getEmailAddress()));
+		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getOwner().getEmailAddress()));
 		   msg.setSubject("Task Pending");
 		   
 		   msg.setContent("Task created by " + t.getTenant().getTenantName() + " on " + t.getTaskCreateddate() + ". <a href='http://localhost:8080/owner/assigncontact?taskId="+ t.getTaskId() +"'>Click here</a> to view task and assign technician.", "text/html");
@@ -56,7 +56,7 @@ public class Email {
 		   Message msg = new MimeMessage(getSession(getProperties()));
 		   msg.setFrom(new InternetAddress(env.getProperty("email.address"), false));
 
-		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getContact().getUser().getEmailAddress()));
+		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getContact().getEmailAddress()));
 		   msg.setSubject("Task Assigned");
 		   
 		   msg.setContent("Task Assigned by " + t.getOwner().getOwnerName() + " on " + t.getTaskModifieddate() + ". <a href='http://localhost:8080/contact/taketask?taskId="+ t.getTaskId() +"'>Click here</a> to view task", "text/html");
@@ -65,14 +65,13 @@ public class Email {
 		   Transport.send(msg);   
 		}
 	  
-	  // Contact sending to Owner and CC Tenant
-	  public void sendOwnerTenantMail(Task t) throws AddressException, MessagingException, IOException {
+	  // Contact or Owner sending to Tenant
+	  public void sendTenantMail(Task t) throws AddressException, MessagingException, IOException {
 		  
 		   Message msg = new MimeMessage(getSession(getProperties()));
 		   msg.setFrom(new InternetAddress(env.getProperty("email.address"), false));
 
-		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getOwner().getUser().getEmailAddress()));
-		   msg.setRecipients(Message.RecipientType.CC, InternetAddress.parse(t.getTenant().getUser().getEmailAddress()));
+		   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(t.getTenant().getEmailAddress()));
 		   msg.setSubject("Task Completed");
 		   
 		   msg.setContent("Task Completed by " + t.getContact().getContactName() + " on " + t.getTaskModifieddate() + ".", "text/html");

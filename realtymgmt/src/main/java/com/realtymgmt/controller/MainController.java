@@ -14,13 +14,11 @@ import javax.mail.internet.AddressException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.realtymgmt.alert.Email;
 import com.realtymgmt.entity.Access;
@@ -37,7 +35,7 @@ import com.realtymgmt.repository.TaskRepository;
 import com.realtymgmt.repository.TenantRepository;
 
 // comment added
-@Controller 
+@RestController 
 public class MainController {
 	
   @Autowired 
@@ -66,31 +64,31 @@ public class MainController {
   
   //index
   @GetMapping("/index")
-  public String index(Model model) {		
+  public String index() {		
 		
 	return "index";
   }
     
-  //sign up services
-  @GetMapping("/signup")
-  public String signupForm(Model model, @RequestParam(defaultValue = "99") String ownerId) {		
+  //sign up services		 
+  // request parameter - owner email
+  @PostMapping("/tenantsignup")
+  public Integer tenantSignup(@RequestParam(defaultValue = "99") String email) {		
+	  
+	Owner o = jdbcTemplate.queryForObject("select owner_id from owner where user_email_address = ?", new Object[]{email}, (rs, rowNum) -> 
+		new Owner(rs.getInt("owner_id")));
 	
-	Optional<Owner> opt = ownerRepository.findById(Integer.valueOf(ownerId));
-		
-	model.addAttribute("owner", opt.isPresent() ? opt.get() : new Owner());
-	
-	return "signupform";
+	return o.getOwnerId();
   }
   
+  // request parameter - user type (owner or contact), name, email, password, services offered (if it is a contact), owner id (if it is a tenant)
   @PostMapping("/signup")
-  public String createUser(Model model, String usertype, String name, String email, String password, String services, String ownerId) {
-	  
-	  
+  public User createUser(@RequestParam String usertype, @RequestParam String name, @RequestParam String email, @RequestParam String password, @RequestParam String services, @RequestParam String ownerId) {
+	  	  
 	  User u = new User();
 	  u.setEmailAddress(email);
-	  u.setUserPassword(new BCryptPasswordEncoder().encode(password));
+	  u.setUserPassword(password);
 	  userRepository.save(u);
-	  model.addAttribute("user", u);
+	  
 	  	  
 	  if(usertype.equals("contact")) {		
 		  Contact c = new Contact();
@@ -132,26 +130,27 @@ public class MainController {
 		  
 	  }
 	  
-	  return "usercreated";
+	  return u;
   }  
   
   //sign in services
   @GetMapping("/signin")
-  public String signinForm(Model model) {		
+  public String signin() {		
 		
-	return "signinform";
+	return "signin";
   }
   
   //authenticated home
   @GetMapping("/home")
-  public String home(Model model) {		
+  public String home() {		
 	return "home";
   }
   
   
   // tenant services
-  @GetMapping("/tenant/home")
-  public String tenant(Model model, @RequestParam(defaultValue = "one@one.one") String email) {
+  // request parameter - tenant email address
+  @PostMapping("/tenant/tasks")
+  public Map<String, Object> tenantHome(@RequestParam String email) {
 	
 	Tenant t = jdbcTemplate.queryForObject("select tenant_id from tenant where user_email_address = ?", new Object[]{email}, (rs, rowNum) -> 
 			new Tenant(rs.getInt("tenant_id")));
@@ -167,51 +166,45 @@ public class MainController {
 		ids.add(ta.getTaskId());
 	}
 		
-	model.addAttribute("tenant", tenant);
-	model.addAttribute("tasks", taskRepository.findAllById(ids));
+	Map<String, Object> map = new HashMap<String, Object>();
+	map.put("tenant", tenant);
+	map.put("tasks", taskRepository.findAllById(ids));
 		
-	return "tenanthome";
+	return map;
   }
   
-  @GetMapping("/tenant/createtask")
-  public String taskForm(Model model, @RequestParam(defaultValue = "1") String tenantId) {
-	
-	Optional<Tenant> opt = tenantRepository.findById(Integer.valueOf(tenantId));
-	
-	model.addAttribute("tenant", opt.isPresent() ? opt.get() : new Tenant());
-	model.addAttribute("task", new Task());
-	
-    return "taskform";
-  }
-  
+  // request parameter - tenant email address, task name, task description
   @PostMapping("/tenant/savetask")
-  public String createTask(Model model, @ModelAttribute Task task, String tenantId, String ownerId) throws AddressException, MessagingException, IOException {
+  public Task createTask(@RequestParam String taskName, @RequestParam String taskDescription, @RequestParam String email) throws AddressException, MessagingException, IOException {
 	  
 	  Task t = new Task();
 	  
-	  t.setTaskName(task.getTaskName());
-	  t.setTaskDescription(task.getTaskDescription());
+	  t.setTaskName(taskName);
+	  t.setTaskDescription(taskDescription);
 	  
 	  t.setTaskStatus("New");	  
 	  t.setTaskCreateddate(new Date());
 	  
-	  Optional<Tenant> optTenant = tenantRepository.findById(Integer.valueOf(tenantId));
-	  Optional<Owner> optOwner = ownerRepository.findById(Integer.valueOf(ownerId));
+	  Tenant te = jdbcTemplate.queryForObject("select tenant_id from tenant where user_email_address = ?", new Object[]{email}, (rs, rowNum) -> 
+		new Tenant(rs.getInt("tenant_id")));
 	  
-	  t.setOwner(optOwner.isPresent() ? optOwner.get() : new Owner());
-	  t.setTenant(optTenant.isPresent() ? optTenant.get() : new Tenant());
+	  Optional<Tenant> optTenant = tenantRepository.findById(Integer.valueOf(te.getTenantId()));
+	  Tenant tenant = optTenant.isPresent() ? optTenant.get() : new Tenant();
+			  
+	  t.setTenant(tenant);
+	  t.setOwner(tenant.getOwner());
 	  
 	  taskRepository.save(t);
 	  
 	  Email.getInstance(env).sendOwnerMail(t);
 	  
-	  model.addAttribute("task", t);
-    return "tasksaved";
+    return t;
   }
   
   // Owner Services
-  @GetMapping("/owner/home")
-  public String owner(Model model, @RequestParam(defaultValue = "one@one.one") String email) {		
+  // request parameter - owner email address
+  @PostMapping("/owner/tasks")
+  public Map<String, Object> ownerHome(@RequestParam String email) {		
 	
 	Owner o = jdbcTemplate.queryForObject("select owner_id from owner where user_email_address = ?", new Object[]{email}, (rs, rowNum) -> 
 		new Owner(rs.getInt("owner_id")));
@@ -243,27 +236,24 @@ public class MainController {
 		
 		tenantTasks.put(tenant, taskRepository.findAllById(ids));
 		
-	}
+	}		
+	
+	Map<String, Object> map = new HashMap<String, Object>();
+	map.put("owner", owner);
+	map.put("tenantTasks", tenantTasks);	
 		
-	model.addAttribute("owner", owner);
-	model.addAttribute("tenantTasks", tenantTasks);
-		
-	return "ownerhome";
+	return map;
   }
   
-  @GetMapping("owner/assigncontact")
-  public String contactForm(Model model, @RequestParam(defaultValue = "1") String taskId) {
+  @GetMapping("/owner/contacts")
+  public Iterable<Contact> contacts() {
 	  
-	  Optional<Task> opt = taskRepository.findById(Integer.valueOf(taskId));	
-	  	  	  
-	  model.addAttribute("task", opt.isPresent() ? opt.get() : new Task());
-	  model.addAttribute("contacts", contactRepository.findAll());
-	  
-	  return "contactform";
+	  return contactRepository.findAll();
   }
   
-  @PostMapping("/owner/updatetask")
-  public String updateTask(Model model, String taskId, String contactId) throws AddressException, MessagingException, IOException {
+  // request parameter task id, contact id
+  @PostMapping("/owner/assigncontacttotask")
+  public Task assignContactToTask(@RequestParam String taskId, @RequestParam String contactId) throws AddressException, MessagingException, IOException {
 	  	    
 	  Optional<Task> optTask = taskRepository.findById(Integer.valueOf(taskId));
 	  Optional<Contact> optContact = contactRepository.findById(Integer.valueOf(contactId));
@@ -276,16 +266,15 @@ public class MainController {
 	  taskRepository.save(t);
 	  
 	  Email.getInstance(env).sendContactMail(t);
-	  
-	  model.addAttribute("task", t);
-	  
-    return "taskupdated";
+	  	  
+	  return t;
   }
   
  
   // contact services
-  @GetMapping("/contact/home")
-  public String contact(Model model, @RequestParam(defaultValue = "one@one.one") String email) {		
+  // request parameter - contact email
+  @PostMapping("/contact/tasks")
+  public Map<String, Object> contactHome(@RequestParam String email) {		
 	
 	Contact c = jdbcTemplate.queryForObject("select contact_id from contact where user_email_address = ?", new Object[]{email}, (rs, rowNum) -> 
 		new Contact(rs.getInt("contact_id")));
@@ -300,26 +289,30 @@ public class MainController {
 	for(Task ta : talst) {
 		ids.add(ta.getTaskId());
 	}
+			
+	Map<String, Object> map = new HashMap<String, Object>();
+	map.put("contact", contact);
+	map.put("tasks", taskRepository.findAllById(ids));
 		
-	model.addAttribute("contact", contact);
-	model.addAttribute("tasks", taskRepository.findAllById(ids));
-	
-		
-	return "contacthome";
+	return map;
   }
-  
-  @GetMapping("contact/taketask")
-  public String viewTask(Model model, @RequestParam(defaultValue = "1") String taskId) {
+    
+  // task services
+  // request parameter - task id
+  @GetMapping("/task")
+  public Task task(@RequestParam(defaultValue = "1") String taskId) {
 	  
-	  Optional<Task> opt = taskRepository.findById(Integer.valueOf(taskId));	
-	  	  	  
-	  model.addAttribute("task", opt.isPresent() ? opt.get() : new Task());
+	  Optional<Task> opt = taskRepository.findById(Integer.valueOf(taskId));
+	  
+	  Task task = opt.isPresent() ? opt.get() : new Task();
 	 	  
-	  return "taskdetail";
+	  return task;
   }
   
-  @PostMapping("contact/closetask")
-  public String closeTask(Model model, String taskId) throws AddressException, MessagingException, IOException {
+  // owner or contact service
+  // request parameter - task id
+  @PostMapping("/closetask")
+  public Task closeTask(@RequestParam String taskId) throws AddressException, MessagingException, IOException {
 	  
 	  Optional<Task> opt = taskRepository.findById(Integer.valueOf(taskId));	
 	  
@@ -329,11 +322,9 @@ public class MainController {
 	  
 	  taskRepository.save(t);
 	  
-	  Email.getInstance(env).sendOwnerTenantMail(t);
-	  
-	  model.addAttribute("task", t);
-	 	  
-	  return "taskclosed";
+	  Email.getInstance(env).sendTenantMail(t);
+	  	 	  
+	  return t;
   }
     
 }

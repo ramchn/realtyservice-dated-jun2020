@@ -1,5 +1,6 @@
 package com.realtymgmt.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,6 +18,9 @@ public class Owner {
 	private Integer ownerId;
 	
 	private String ownerName;
+	
+	@Column(name="user_email_address", insertable=false, updatable=false)
+  	private String emailAddress;
 	
 	@OneToOne
 	private User user;
@@ -40,11 +44,11 @@ public class Owner {
 	public void setOwnerName(String ownerName) {
 		this.ownerName = ownerName;
 	}
-
-	public User getUser() {
-		return user;
+	
+	public String getEmailAddress() {
+		return emailAddress;
 	}
-
+	
 	public void setUser(User user) {
 		this.user = user;
 	}
