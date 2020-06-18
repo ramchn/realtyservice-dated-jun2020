@@ -10,6 +10,7 @@ public class RealtyMgmtApplication {
 	// this is spring boot app
 	public static void main(String[] args) {
 		SpringApplication.run(RealtyMgmtApplication.class, args);
+		
 	}
 
 }
