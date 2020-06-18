@@ -62,13 +62,17 @@ public class MainController {
   @Autowired
   JdbcTemplate jdbcTemplate;
   
-  //index
+  //un-authenticated home
   @GetMapping("/index")
-  public String index() {		
-		
-	return "index";
+  public String gindex(@RequestParam(defaultValue = "99") String name) {		
+	return "GET " + name;
   }
-    
+  
+  @PostMapping("/index")
+  public String pindex(String name) {		
+	return "POST " + name;
+  }
+  
   //sign up services		 
   // request parameter - owner email
   @PostMapping("/tenantsignup")
@@ -133,19 +137,16 @@ public class MainController {
 	  return u;
   }  
   
-  //sign in services
-  @GetMapping("/signin")
-  public String signin() {		
-		
-	return "signin";
-  }
-  
   //authenticated home
   @GetMapping("/home")
-  public String home() {		
-	return "home";
+  public String ghome() {		
+	return "GET home";
   }
   
+  @PostMapping("/home")
+  public String phome() {		
+	return "POST home";
+  }
   
   // tenant services
   // request parameter - tenant email address
@@ -311,7 +312,7 @@ public class MainController {
   
   // owner or contact service
   // request parameter - task id
-  @PostMapping("/closetask")
+  @PostMapping("/task/closetask")
   public Task closeTask(@RequestParam String taskId) throws AddressException, MessagingException, IOException {
 	  
 	  Optional<Task> opt = taskRepository.findById(Integer.valueOf(taskId));	
