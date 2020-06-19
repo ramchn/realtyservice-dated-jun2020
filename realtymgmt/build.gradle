@@ -1,9 +1,0 @@
-subprojects {
-	group = 'com.realtymgmt'
-	version = '0.0.4-SNAPSHOT'
-
-	repositories {
-		mavenCentral()
-	}	
-	
-}
