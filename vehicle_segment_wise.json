@@ -1,1265 +1,1294 @@
 ﻿{
-    "CONSTRUCTION VEHICLE": [
-        {
-            "ASSET MODEL": "ASH0000072",
-            "ASSET DESCRIPTION": "AL COMET CT 1613 H FBT",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000074",
-            "ASSET DESCRIPTION": "AL COMET CT 1616 FBT",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000107",
-            "ASSET DESCRIPTION": "AL TAURUS 2516 H FBT-T",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000109",
-            "ASSET DESCRIPTION": "AL TAURUS 2518 H FBT-T",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000131",
-            "ASSET DESCRIPTION": "AL TUSKER SUPER 2214 FBT-T",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000195",
-            "ASSET DESCRIPTION": "AL 1616 XL FBT-T",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000221",
-            "ASSET DESCRIPTION": "AL 2516 IL FBT-M",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000233",
-            "ASSET DESCRIPTION": "AL 2516T IL FBT-T",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000236",
-            "ASSET DESCRIPTION": "AL 1616 IL FBT-M",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000239",
-            "ASSET DESCRIPTION": "AL 2518T IL FBT-T",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "TAT0000059",
-            "ASSET DESCRIPTION": "TATA LPK 2516 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000061",
-            "ASSET DESCRIPTION": "TATA LPK 2518 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000137",
-            "ASSET DESCRIPTION": "TATA SK 1613 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000141",
-            "ASSET DESCRIPTION": "TATA SK 1613 TURBO FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000257",
-            "ASSET DESCRIPTION": "TATA SK 1616 TURBO FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000263",
-            "ASSET DESCRIPTION": "TATA LPK 2523 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000455",
-            "ASSET DESCRIPTION": "TATA LPT 2518 CUMMINS FBT-T",
-            "MANUFACTURER": "TATA"
-        }
-    ],
-    "FARM EQUIPMENT": [
-        {
-            "ASSET MODEL": "MAH0000068",
-            "ASSET DESCRIPTION": "MAHINDRA 275 DI",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000069",
-            "ASSET DESCRIPTION": "MAHINDRA 475 DI",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000070",
-            "ASSET DESCRIPTION": "MAHINDRA 575 DI",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "TAF0000002",
-            "ASSET DESCRIPTION": "TAFE 1035 DI",
-            "MANUFACTURER": "TAFE"
-        },
-        {
-            "ASSET MODEL": "TAF0000004",
-            "ASSET DESCRIPTION": "TAFE 241",
-            "MANUFACTURER": "TAFE"
-        }
-    ],
-    "LCV": [
-        {
-            "ASSET MODEL": "ASH0000190",
-            "ASSET DESCRIPTION": "AL DOST",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000323",
-            "ASSET DESCRIPTION": "AL DOST PLUS",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000355",
-            "ASSET DESCRIPTION": "AL DOST STRONG",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "EIC0000018",
-            "ASSET DESCRIPTION": "EICHER 10.60 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000029",
-            "ASSET DESCRIPTION": "EICHER 10.90 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000032",
-            "ASSET DESCRIPTION": "EICHER 10.95 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000034",
-            "ASSET DESCRIPTION": "EICHER 11.10 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000036",
-            "ASSET DESCRIPTION": "EICHER 11.12 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000062",
-            "ASSET DESCRIPTION": "EICHER 10.80 FBT-T",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000085",
-            "ASSET DESCRIPTION": "EICHER 10.95 FBT-T",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000101",
-            "ASSET DESCRIPTION": "EICHER 11.10XP FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000104",
-            "ASSET DESCRIPTION": "EICHER 11.14 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000113",
-            "ASSET DESCRIPTION": "EICHER PRO 1110 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000114",
-            "ASSET DESCRIPTION": "EICHER PRO 1090 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000120",
-            "ASSET DESCRIPTION": "EICHER PRO 1095 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000138",
-            "ASSET DESCRIPTION": "EICHER PRO 1114 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000145",
-            "ASSET DESCRIPTION": "EICHER PRO 1049 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000149",
-            "ASSET DESCRIPTION": "EICHER PRO 1055 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000175",
-            "ASSET DESCRIPTION": "EICHER PRO 1050 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000184",
-            "ASSET DESCRIPTION": "EICHER PRO 1080 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "EIC0000226",
-            "ASSET DESCRIPTION": "EICHER PRO 1114 XP FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "MAH0000045",
-            "ASSET DESCRIPTION": "MAHINDRA MAXI TRUCK",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000047",
-            "ASSET DESCRIPTION": "MAHINDRA MAXX PICKUP",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000075",
-            "ASSET DESCRIPTION": "MAHINDRA BOLERO CAMPER",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000095",
-            "ASSET DESCRIPTION": "MAHINDRA BOLERO MAXI TRUCK",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000096",
-            "ASSET DESCRIPTION": "MAHINDRA BOLERO PICK UP",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000107",
-            "ASSET DESCRIPTION": "MAHINDRA BOLERO MAXI TRUCK- CNG",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000154",
-            "ASSET DESCRIPTION": "MAHINDRA BOLERO PICKUP-4X4",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000188",
-            "ASSET DESCRIPTION": "MAHINDRA BOLERO MAXI TRUCK PLUS",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000358",
-            "ASSET DESCRIPTION": "MAHINDRA BOLERO MAXI TRUCK PLUS-CNG",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000427",
-            "ASSET DESCRIPTION": "MAHINDRA BOLERO BIG PICKUP",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000484",
-            "ASSET DESCRIPTION": "MAHINDRA BOLERO CAMPER GOLD VX",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAR0000344",
-            "ASSET DESCRIPTION": "MARUTI SUPER CARRY",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "TAT0000065",
-            "ASSET DESCRIPTION": "TATA LPK 909 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000085",
-            "ASSET DESCRIPTION": "TATA LPT 1109",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000086",
-            "ASSET DESCRIPTION": "TATA LPT 1109 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000104",
-            "ASSET DESCRIPTION": "TATA LPT 407-6 WHEEL FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000130",
-            "ASSET DESCRIPTION": "TATA SFC 709",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000134",
-            "ASSET DESCRIPTION": "TATA SFC 909 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000148",
-            "ASSET DESCRIPTION": "TATA SFC 407-4 WHEEL FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000149",
-            "ASSET DESCRIPTION": "TATA SFC 407-6 WHEEL",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000150",
-            "ASSET DESCRIPTION": "TATA SFC 407-6 WHEEL FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000157",
-            "ASSET DESCRIPTION": "TATA ACE",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000201",
-            "ASSET DESCRIPTION": "TATA SFC 709 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000209",
-            "ASSET DESCRIPTION": "TATA SK 709 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000224",
-            "ASSET DESCRIPTION": "TATA LPT 1109 FBT-T",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000298",
-            "ASSET DESCRIPTION": "TATA ACE-CNG",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000635",
-            "ASSET DESCRIPTION": "TATA ACE MEGA",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000770",
-            "ASSET DESCRIPTION": "TATA ACE MEGA XL",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000775",
-            "ASSET DESCRIPTION": "TATA LPK 912 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000779",
-            "ASSET DESCRIPTION": "TATA SFC 407-6 WHEEL FBT-T",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000786",
-            "ASSET DESCRIPTION": "TATA ULTRA 1014 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000789",
-            "ASSET DESCRIPTION": "TATA ACE XL",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000838",
-            "ASSET DESCRIPTION": "TATA ACE GOLD",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000840",
-            "ASSET DESCRIPTION": "TATA SFC 709 FBT-T",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000881",
-            "ASSET DESCRIPTION": "TATA LPT 1212 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000927",
-            "ASSET DESCRIPTION": "TATA INTRA V10",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000928",
-            "ASSET DESCRIPTION": "TATA INTRA V20",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT1000302",
-            "ASSET DESCRIPTION": "TATA LPT 1109-T",
-            "MANUFACTURER": "TATA"
-        }
-    ],
-    "MACHINERY": [
-        {
-            "ASSET MODEL": "ACL0000002",
-            "ASSET DESCRIPTION": "ACE 12XW",
-            "MANUFACTURER": "ACEL"
-        },
-        {
-            "ASSET MODEL": "ESC0000023",
-            "ASSET DESCRIPTION": "ESCORTS HYDRA 12",
-            "MANUFACTURER": "ESCORTS"
-        },
-        {
-            "ASSET MODEL": "JCB0000008",
-            "ASSET DESCRIPTION": "JCB 3DX",
-            "MANUFACTURER": "JCBINIALTD"
-        },
-        {
-            "ASSET MODEL": "JCB0000039",
-            "ASSET DESCRIPTION": "JCB 3DXL",
-            "MANUFACTURER": "JCBINIALTD"
-        }
-    ],
-    "MHCV": [
-        {
-            "ASSET MODEL": "ASH0000088",
-            "ASSET DESCRIPTION": "AL 1612 FBT",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000093",
-            "ASSET DESCRIPTION": "AL COMET 1611 FBT",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000124",
-            "ASSET DESCRIPTION": "AL 3116 H FBT",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000163",
-            "ASSET DESCRIPTION": "AL 2516 IL FBT",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000165",
-            "ASSET DESCRIPTION": "AL 3116 IL FBT",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "ASH0000202",
-            "ASSET DESCRIPTION": "AL 1616 IL FBT",
-            "MANUFACTURER": "ASHOKYLAND"
-        },
-        {
-            "ASSET MODEL": "EIC0000178",
-            "ASSET DESCRIPTION": "EICHER PRO 5025 FBT",
-            "MANUFACTURER": "EICHER"
-        },
-        {
-            "ASSET MODEL": "TAT0000091",
-            "ASSET DESCRIPTION": "TATA LPT 1613 TURBO FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000096",
-            "ASSET DESCRIPTION": "TATA LPT 2516 TURBO FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000098",
-            "ASSET DESCRIPTION": "TATA LPT 2516 TURBO SUPER FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000186",
-            "ASSET DESCRIPTION": "TATA LPT 1613 CUMMINS FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000187",
-            "ASSET DESCRIPTION": "TATA LPT 1613 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000192",
-            "ASSET DESCRIPTION": "TATA LPT 2518 CUMMINS FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000193",
-            "ASSET DESCRIPTION": "TATA LPT 2518 TURBO FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000194",
-            "ASSET DESCRIPTION": "TATA LPT 3118 CUMMINS FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000294",
-            "ASSET DESCRIPTION": "TATA LPT 2516 CUMMINS FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000309",
-            "ASSET DESCRIPTION": "TATA LPT 2516 SUPER TURBO BULKER",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000752",
-            "ASSET DESCRIPTION": "TATA LPT 1412 FBT",
-            "MANUFACTURER": "TATA"
-        },
-        {
-            "ASSET MODEL": "TAT0000782",
-            "ASSET DESCRIPTION": "TATA ULTRA 1518 FBT",
-            "MANUFACTURER": "TATA"
-        }
-    ],
-    "PASSENGER 3WHEELER": [
-        {
-            "ASSET MODEL": "BAJ0000015",
-            "ASSET DESCRIPTION": "BAJAJ RE LPG-P",
-            "MANUFACTURER": "BAJAJ"
-        },
-        {
-            "ASSET MODEL": "BAJ0000031",
-            "ASSET DESCRIPTION": "BAJAJ RE MAXIMA DIESEL-P",
-            "MANUFACTURER": "BAJAJ"
-        },
-        {
-            "ASSET MODEL": "BAJ0000032",
-            "ASSET DESCRIPTION": "BAJAJ RE COMPACT DIESEL-P",
-            "MANUFACTURER": "BAJAJ"
-        },
-        {
-            "ASSET MODEL": "BAJ0000039",
-            "ASSET DESCRIPTION": "BAJAJ RE COMPACT LPG 4S-P",
-            "MANUFACTURER": "BAJAJ"
-        }
-    ],
-    "PASSENGER COMMERCIAL": [
-        {
-            "ASSET MODEL": "FOR0000026",
-            "ASSET DESCRIPTION": "FORCE TEMPO TRAVELLER-P",
-            "MANUFACTURER": "FORCE"
-        },
-        {
-            "ASSET MODEL": "FOR0000059",
-            "ASSET DESCRIPTION": "FORCE TEMPO TRAVELLER SCHOOL BUS-P",
-            "MANUFACTURER": "FORCE"
-        },
-        {
-            "ASSET MODEL": "FOR0000071",
-            "ASSET DESCRIPTION": "FORCE TEMPO TRAVELLER AC-P",
-            "MANUFACTURER": "FORCE"
-        },
-        {
-            "ASSET MODEL": "MAR0000080",
-            "ASSET DESCRIPTION": "MARUTI ERTIGA-P",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000106",
-            "ASSET DESCRIPTION": "MARUTI CELERIO-P",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000305",
-            "ASSET DESCRIPTION": "MARUTI CIAZ-P",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000405",
-            "ASSET DESCRIPTION": "MARUTI DZIRE TOUR DIESEL-P",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MARUTI2011",
-            "ASSET DESCRIPTION": "MARUTI SWIFT DIESEL-P",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MARUTI2012",
-            "ASSET DESCRIPTION": "MARUTI SWIFT PETROL-P",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MARUTI2014",
-            "ASSET DESCRIPTION": "MARUTI DZIRE-P",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MARUTI2018",
-            "ASSET DESCRIPTION": "MARUTI BALENO-P",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "TOY0000006",
-            "ASSET DESCRIPTION": "TOYOTA INNOVA-P",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000012",
-            "ASSET DESCRIPTION": "TOYOTA ETIOS-P",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000191",
-            "ASSET DESCRIPTION": "TOYOTA INNOVA CRYSTA-P",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000228",
-            "ASSET DESCRIPTION": "TOYOTA ETIOS PLATINUM-P",
-            "MANUFACTURER": "TOYOTA"
-        }
-    ],
-    "PRIVATE CAR": [
-        {
-            "ASSET MODEL": "HYU0000107",
-            "ASSET DESCRIPTION": "EON 0.8L IRDE MT ERA PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000127",
-            "ASSET DESCRIPTION": "I10 GRAND 2ND GEN 1.1 U2 CRDI SPORTZ GLS DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000137",
-            "ASSET DESCRIPTION": "I10 ASTA 1.2 L GLS PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000139",
-            "ASSET DESCRIPTION": "I10 GRAND 1.2 KAPPA DUAL VTVT ASTA PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000148",
-            "ASSET DESCRIPTION": "I10 SPORTZ 1.2 L AT GLS PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000151",
-            "ASSET DESCRIPTION": "I20 1.2 L ASTA (O) PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000152",
-            "ASSET DESCRIPTION": "I20 1.4 L ASTA PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000153",
-            "ASSET DESCRIPTION": "I20 1.4 L ASTA (O) WITH SUNROOF DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000154",
-            "ASSET DESCRIPTION": "I20 1.4 L ASTA (O) WITH SUNROOF PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000155",
-            "ASSET DESCRIPTION": "I20 I GEN 1.2 L KAPPA DUAL VTVT ASTA (O) WITH SUNROOF PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000156",
-            "ASSET DESCRIPTION": "I20 I GEN 1.2 L KAPPA DUAL VTVT ASTA PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000157",
-            "ASSET DESCRIPTION": "I20 I GEN 1.4L U2 CRDI ASTA DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000158",
-            "ASSET DESCRIPTION": "I20 I GEN 1.2 L KAPPA DUAL VTVT ERA PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000159",
-            "ASSET DESCRIPTION": "I20 I GEN 1.4L U2 CRDI ERA DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000160",
-            "ASSET DESCRIPTION": "I20 I GEN 1.2 L KAPPA DUAL VTVT MAGNA PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000161",
-            "ASSET DESCRIPTION": "I20 I GEN 1.4L U2 CRDI MAGNA DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000162",
-            "ASSET DESCRIPTION": "I20 I GEN MAGNA (O) DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000163",
-            "ASSET DESCRIPTION": "I20 I GEN MAGNA (O) PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000164",
-            "ASSET DESCRIPTION": "I20 I GEN 1.4L GAMMA VTVT SPORTS AT PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000165",
-            "ASSET DESCRIPTION": "I20 I GEN 1.2L KAPPA DUAL VTVT SPORTZ PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000166",
-            "ASSET DESCRIPTION": "I20 I GEN 1.4L U2 CRDI SPORTZ DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000175",
-            "ASSET DESCRIPTION": "SANTRO XING GL PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000206",
-            "ASSET DESCRIPTION": "VERNA (FLUDIC) CRDI EX 1.6 DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000210",
-            "ASSET DESCRIPTION": "VERNA (FLUDIC) CRDI SX 1.6 VGT DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000211",
-            "ASSET DESCRIPTION": "VERNA (FLUDIC) CRDI SX 1.6 VGT AT DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000219",
-            "ASSET DESCRIPTION": "VERNA (FLUDIC) VTVT SX 1.6 PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000227",
-            "ASSET DESCRIPTION": "I20 ELITE 1.2 KAPPA DUAL VTVT ERA PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000228",
-            "ASSET DESCRIPTION": "I20 ELITE 1.2 KAPPA DUAL VTVT MAGNA PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000229",
-            "ASSET DESCRIPTION": "I20 ELITE 1.2 KAPPA DUAL VTVT SPORTZ PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000230",
-            "ASSET DESCRIPTION": "I20 ELITE 1.2 KAPPA DUAL VTVT SPORTZ (O) PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000231",
-            "ASSET DESCRIPTION": "I20 ELITE 1.2 KAPPA DUAL VTVT ASTA PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000232",
-            "ASSET DESCRIPTION": "I20 ELITE 1.4L U2 CRDI ERA DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000233",
-            "ASSET DESCRIPTION": "I20 ELITE 1.4L U2 CRDI MAGNA DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000234",
-            "ASSET DESCRIPTION": "I20 ELITE 1.4L U2 CRDI SPORTZ DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000235",
-            "ASSET DESCRIPTION": "I20 ELITE 1.4L U2 CRDI SPORTZ (O) DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000236",
-            "ASSET DESCRIPTION": "I20 ELITE 1.4L U2 CRDI ASTA DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000237",
-            "ASSET DESCRIPTION": "I20 ACTIVE 1.2L KAPPA DUAL VTVT BASE PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000238",
-            "ASSET DESCRIPTION": "I20 ACTIVE 1.2L KAPPA DUAL VTVT S PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000239",
-            "ASSET DESCRIPTION": "I20 ACTIVE 1.4L U2 CRDI BASE DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000240",
-            "ASSET DESCRIPTION": "I20 ACTIVE 1.4L U2 CRDI S DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000241",
-            "ASSET DESCRIPTION": "I20 ACTIVE 1.4L U2 CRDI SX DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000243",
-            "ASSET DESCRIPTION": "CRETA 1.4L CRDI 6-SPEED MT BASE DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000244",
-            "ASSET DESCRIPTION": "CRETA 1.4L CRDI 6-SPEED MT S+ DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000245",
-            "ASSET DESCRIPTION": "CRETA 1.4L CRDI 6-SPEED MT S DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000246",
-            "ASSET DESCRIPTION": "CRETA 1.6L CRDI VGT 6-SPEED AT SX+ DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000247",
-            "ASSET DESCRIPTION": "CRETA 1.6L CRDI VGT 6-SPEED MANUAL SX (O) DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000248",
-            "ASSET DESCRIPTION": "CRETA 1.6L CRDI VGT 6-SPEED MT SX+ DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000249",
-            "ASSET DESCRIPTION": "CRETA 1.6L CRDI VGT 6-SPEED MT SX DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000250",
-            "ASSET DESCRIPTION": "CRETA 1.6L DUAL VTVT 6-SPEED MT SX+ PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000251",
-            "ASSET DESCRIPTION": "CRETA 1.6L DUAL VTVT 6-SPEED MT BASE PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000252",
-            "ASSET DESCRIPTION": "CRETA 1.6L DUAL VTVT 6-SPEED MT S PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000262",
-            "ASSET DESCRIPTION": "I20 ACTIVE 1.2L KAPPA DUAL VTVT SX PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000263",
-            "ASSET DESCRIPTION": "I20 1.4 L ASTA DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000283",
-            "ASSET DESCRIPTION": "VERNA CRDI SX(O) 1.6 DIESEL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000305",
-            "ASSET DESCRIPTION": "VERNA VTVT SX(O) 1.6 PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "HYU0000336",
-            "ASSET DESCRIPTION": "VENUE SX PLUS DCT PETROL 5 SEATER",
-            "MANUFACTURER": "HYUNDAI"
-        },
-        {
-            "ASSET MODEL": "MAH0000224",
-            "ASSET DESCRIPTION": "BOLERO DI AC BS3 7 SEATER",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000235",
-            "ASSET DESCRIPTION": "BOLERO SLE BS4 G615DIESEL 7 SEATER",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000236",
-            "ASSET DESCRIPTION": "BOLERO SLX 2WD DIESEL 7 SEATER",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000238",
-            "ASSET DESCRIPTION": "BOLERO SLX BS 4 DIESEL 7 SEATER",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000240",
-            "ASSET DESCRIPTION": "BOLERO VLX CRDE DIESEL 7 SEATER",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000242",
-            "ASSET DESCRIPTION": "BOLERO ZLX BS 3 DIESEL 7 SEATER",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000243",
-            "ASSET DESCRIPTION": "BOLERO ZLX BS 4 DIESEL 7 SEATER",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000435",
-            "ASSET DESCRIPTION": "BOLERO ZLX POWER PLUS DIESEL 7 SEATER",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAH0000605",
-            "ASSET DESCRIPTION": "XUV 300 W8(O) DIESEL 5 SEATER",
-            "MANUFACTURER": "MAHINDRA"
-        },
-        {
-            "ASSET MODEL": "MAR0000127",
-            "ASSET DESCRIPTION": "ALTO K10 VXI PETROL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000183",
-            "ASSET DESCRIPTION": "SWIFT DZIRE LDI DIESEL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000186",
-            "ASSET DESCRIPTION": "SWIFT DZIRE VDI DIESEL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000188",
-            "ASSET DESCRIPTION": "SWIFT DZIRE VXI PETROL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000189",
-            "ASSET DESCRIPTION": "SWIFT DZIRE ZDI DIESEL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000191",
-            "ASSET DESCRIPTION": "SWIFT LDI DIESEL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000192",
-            "ASSET DESCRIPTION": "SWIFT LXI PETROL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000193",
-            "ASSET DESCRIPTION": "SWIFT VDI DIESEL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000194",
-            "ASSET DESCRIPTION": "SWIFT VXI PETROL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000195",
-            "ASSET DESCRIPTION": "SWIFT ZDI DIESEL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000196",
-            "ASSET DESCRIPTION": "SWIFT ZXI PETROL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000341",
-            "ASSET DESCRIPTION": "VITARA BREZZA 1.2L ZDI+ MT DIESEL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000383",
-            "ASSET DESCRIPTION": "SWIFT ZDI PLUS DIESEL 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "MAR0000422",
-            "ASSET DESCRIPTION": "DZIRE TOUR CNG 5 SEATER",
-            "MANUFACTURER": "MARUTHI"
-        },
-        {
-            "ASSET MODEL": "TOY0000067",
-            "ASSET DESCRIPTION": "ETIOS D 4D GD DIESEL 5 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000068",
-            "ASSET DESCRIPTION": "ETIOS D 4D GD SP DIESEL 5 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000075",
-            "ASSET DESCRIPTION": "ETIOS LIVA D 4D GD DIESEL 5 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000079",
-            "ASSET DESCRIPTION": "ETIOS LIVA G PETROL 5 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000105",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 EV PS DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000106",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 EV PS DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000107",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 EV PS W/O A/C DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000108",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 EV PS W/O A/C DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000109",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 G DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000110",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 G DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000111",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 GX DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000112",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 GX DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000113",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 VX DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000114",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 VX DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000115",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 ZX DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000117",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.0 G1 PETROL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000120",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 EV MS DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000121",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 EV PS DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000122",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 EV PS DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000123",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 EV PS W/O A/C DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000124",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 EV PS W/O A/C DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000125",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 G DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000126",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 G DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000127",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 G1 DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000128",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 GX DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000129",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 GX DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000130",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 V DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000131",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 V DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000132",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 VX DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000133",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 VX DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000134",
-            "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 ZX DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000181",
-            "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 G MT DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000182",
-            "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 G MT DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000183",
-            "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 GX MT DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000184",
-            "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 GX MT DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000185",
-            "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 VX MT DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000186",
-            "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 VX MT DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000187",
-            "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 ZX MT DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000188",
-            "ASSET DESCRIPTION": "INNOVA CRYSTA 2.8 GX AT DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000189",
-            "ASSET DESCRIPTION": "INNOVA CRYSTA 2.8 GX AT DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000190",
-            "ASSET DESCRIPTION": "INNOVA CRYSTA 2.8 ZX AT DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000208",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 V DIESEL 7 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000209",
-            "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 V DIESEL 8 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "TOY0000226",
-            "ASSET DESCRIPTION": "GLANZA V PETROL 5 SEATER",
-            "MANUFACTURER": "TOYOTA"
-        },
-        {
-            "ASSET MODEL": "VKS0000032",
-            "ASSET DESCRIPTION": "POLO 1.2L MT COMFORTLINE PETROL 5 SEATER",
-            "MANUFACTURER": "VOLKSWAGEN"
-        },
-        {
-            "ASSET MODEL": "VKS0000035",
-            "ASSET DESCRIPTION": "POLO 1.5L MT HIGHLINE DIESEL 5 SEATER",
-            "MANUFACTURER": "VOLKSWAGEN"
-        }
-    ],
-    "TWO WHEELER": [
-        {
-            "ASSET MODEL": "ENF2W00004",
-            "ASSET DESCRIPTION": "ROYAL ENFIELD CLASSIC 350",
-            "MANUFACTURER": "ENFIELD"
+    "VEHICLE SEGMENTS":[
+        {
+            "NAME": "CONSTRUCTION VEHICLE",
+            "DETAILS": [
+                {
+                    "ASSET MODEL": "ASH0000072",
+                    "ASSET DESCRIPTION": "AL COMET CT 1613 H FBT",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000074",
+                    "ASSET DESCRIPTION": "AL COMET CT 1616 FBT",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000107",
+                    "ASSET DESCRIPTION": "AL TAURUS 2516 H FBT-T",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000109",
+                    "ASSET DESCRIPTION": "AL TAURUS 2518 H FBT-T",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000131",
+                    "ASSET DESCRIPTION": "AL TUSKER SUPER 2214 FBT-T",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000195",
+                    "ASSET DESCRIPTION": "AL 1616 XL FBT-T",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000221",
+                    "ASSET DESCRIPTION": "AL 2516 IL FBT-M",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000233",
+                    "ASSET DESCRIPTION": "AL 2516T IL FBT-T",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000236",
+                    "ASSET DESCRIPTION": "AL 1616 IL FBT-M",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000239",
+                    "ASSET DESCRIPTION": "AL 2518T IL FBT-T",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "TAT0000059",
+                    "ASSET DESCRIPTION": "TATA LPK 2516 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000061",
+                    "ASSET DESCRIPTION": "TATA LPK 2518 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000137",
+                    "ASSET DESCRIPTION": "TATA SK 1613 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000141",
+                    "ASSET DESCRIPTION": "TATA SK 1613 TURBO FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000257",
+                    "ASSET DESCRIPTION": "TATA SK 1616 TURBO FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000263",
+                    "ASSET DESCRIPTION": "TATA LPK 2523 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000455",
+                    "ASSET DESCRIPTION": "TATA LPT 2518 CUMMINS FBT-T",
+                    "MANUFACTURER": "TATA"
+                }
+            ]
+        },
+        {
+            "NAME": "FARM EQUIPMENT",
+            "DETAILS": [
+                {
+                    "ASSET MODEL": "MAH0000068",
+                    "ASSET DESCRIPTION": "MAHINDRA 275 DI",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000069",
+                    "ASSET DESCRIPTION": "MAHINDRA 475 DI",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000070",
+                    "ASSET DESCRIPTION": "MAHINDRA 575 DI",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "TAF0000002",
+                    "ASSET DESCRIPTION": "TAFE 1035 DI",
+                    "MANUFACTURER": "TAFE"
+                },
+                {
+                    "ASSET MODEL": "TAF0000004",
+                    "ASSET DESCRIPTION": "TAFE 241",
+                    "MANUFACTURER": "TAFE"
+                }
+            ]
+        },
+        {
+            "NAME": "LCV",
+            "DETAILS": [
+                {
+                    "ASSET MODEL": "ASH0000190",
+                    "ASSET DESCRIPTION": "AL DOST",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000323",
+                    "ASSET DESCRIPTION": "AL DOST PLUS",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000355",
+                    "ASSET DESCRIPTION": "AL DOST STRONG",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "EIC0000018",
+                    "ASSET DESCRIPTION": "EICHER 10.60 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000029",
+                    "ASSET DESCRIPTION": "EICHER 10.90 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000032",
+                    "ASSET DESCRIPTION": "EICHER 10.95 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000034",
+                    "ASSET DESCRIPTION": "EICHER 11.10 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000036",
+                    "ASSET DESCRIPTION": "EICHER 11.12 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000062",
+                    "ASSET DESCRIPTION": "EICHER 10.80 FBT-T",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000085",
+                    "ASSET DESCRIPTION": "EICHER 10.95 FBT-T",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000101",
+                    "ASSET DESCRIPTION": "EICHER 11.10XP FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000104",
+                    "ASSET DESCRIPTION": "EICHER 11.14 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000113",
+                    "ASSET DESCRIPTION": "EICHER PRO 1110 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000114",
+                    "ASSET DESCRIPTION": "EICHER PRO 1090 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000120",
+                    "ASSET DESCRIPTION": "EICHER PRO 1095 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000138",
+                    "ASSET DESCRIPTION": "EICHER PRO 1114 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000145",
+                    "ASSET DESCRIPTION": "EICHER PRO 1049 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000149",
+                    "ASSET DESCRIPTION": "EICHER PRO 1055 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000175",
+                    "ASSET DESCRIPTION": "EICHER PRO 1050 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000184",
+                    "ASSET DESCRIPTION": "EICHER PRO 1080 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "EIC0000226",
+                    "ASSET DESCRIPTION": "EICHER PRO 1114 XP FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "MAH0000045",
+                    "ASSET DESCRIPTION": "MAHINDRA MAXI TRUCK",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000047",
+                    "ASSET DESCRIPTION": "MAHINDRA MAXX PICKUP",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000075",
+                    "ASSET DESCRIPTION": "MAHINDRA BOLERO CAMPER",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000095",
+                    "ASSET DESCRIPTION": "MAHINDRA BOLERO MAXI TRUCK",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000096",
+                    "ASSET DESCRIPTION": "MAHINDRA BOLERO PICK UP",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000107",
+                    "ASSET DESCRIPTION": "MAHINDRA BOLERO MAXI TRUCK- CNG",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000154",
+                    "ASSET DESCRIPTION": "MAHINDRA BOLERO PICKUP-4X4",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000188",
+                    "ASSET DESCRIPTION": "MAHINDRA BOLERO MAXI TRUCK PLUS",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000358",
+                    "ASSET DESCRIPTION": "MAHINDRA BOLERO MAXI TRUCK PLUS-CNG",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000427",
+                    "ASSET DESCRIPTION": "MAHINDRA BOLERO BIG PICKUP",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000484",
+                    "ASSET DESCRIPTION": "MAHINDRA BOLERO CAMPER GOLD VX",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAR0000344",
+                    "ASSET DESCRIPTION": "MARUTI SUPER CARRY",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "TAT0000065",
+                    "ASSET DESCRIPTION": "TATA LPK 909 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000085",
+                    "ASSET DESCRIPTION": "TATA LPT 1109",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000086",
+                    "ASSET DESCRIPTION": "TATA LPT 1109 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000104",
+                    "ASSET DESCRIPTION": "TATA LPT 407-6 WHEEL FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000130",
+                    "ASSET DESCRIPTION": "TATA SFC 709",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000134",
+                    "ASSET DESCRIPTION": "TATA SFC 909 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000148",
+                    "ASSET DESCRIPTION": "TATA SFC 407-4 WHEEL FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000149",
+                    "ASSET DESCRIPTION": "TATA SFC 407-6 WHEEL",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000150",
+                    "ASSET DESCRIPTION": "TATA SFC 407-6 WHEEL FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000157",
+                    "ASSET DESCRIPTION": "TATA ACE",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000201",
+                    "ASSET DESCRIPTION": "TATA SFC 709 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000209",
+                    "ASSET DESCRIPTION": "TATA SK 709 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000224",
+                    "ASSET DESCRIPTION": "TATA LPT 1109 FBT-T",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000298",
+                    "ASSET DESCRIPTION": "TATA ACE-CNG",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000635",
+                    "ASSET DESCRIPTION": "TATA ACE MEGA",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000770",
+                    "ASSET DESCRIPTION": "TATA ACE MEGA XL",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000775",
+                    "ASSET DESCRIPTION": "TATA LPK 912 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000779",
+                    "ASSET DESCRIPTION": "TATA SFC 407-6 WHEEL FBT-T",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000786",
+                    "ASSET DESCRIPTION": "TATA ULTRA 1014 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000789",
+                    "ASSET DESCRIPTION": "TATA ACE XL",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000838",
+                    "ASSET DESCRIPTION": "TATA ACE GOLD",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000840",
+                    "ASSET DESCRIPTION": "TATA SFC 709 FBT-T",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000881",
+                    "ASSET DESCRIPTION": "TATA LPT 1212 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000927",
+                    "ASSET DESCRIPTION": "TATA INTRA V10",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000928",
+                    "ASSET DESCRIPTION": "TATA INTRA V20",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT1000302",
+                    "ASSET DESCRIPTION": "TATA LPT 1109-T",
+                    "MANUFACTURER": "TATA"
+                }
+            ]
+        },
+        {
+            "NAME": "MACHINERY",
+            "DETAILS": [
+                {
+                    "ASSET MODEL": "ACL0000002",
+                    "ASSET DESCRIPTION": "ACE 12XW",
+                    "MANUFACTURER": "ACEL"
+                },
+                {
+                    "ASSET MODEL": "ESC0000023",
+                    "ASSET DESCRIPTION": "ESCORTS HYDRA 12",
+                    "MANUFACTURER": "ESCORTS"
+                },
+                {
+                    "ASSET MODEL": "JCB0000008",
+                    "ASSET DESCRIPTION": "JCB 3DX",
+                    "MANUFACTURER": "JCBINIALTD"
+                },
+                {
+                    "ASSET MODEL": "JCB0000039",
+                    "ASSET DESCRIPTION": "JCB 3DXL",
+                    "MANUFACTURER": "JCBINIALTD"
+                }
+            ]
+        },
+        {
+            "NAME": "MHCV",
+            "DETAILS": [
+                {
+                    "ASSET MODEL": "ASH0000088",
+                    "ASSET DESCRIPTION": "AL 1612 FBT",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000093",
+                    "ASSET DESCRIPTION": "AL COMET 1611 FBT",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000124",
+                    "ASSET DESCRIPTION": "AL 3116 H FBT",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000163",
+                    "ASSET DESCRIPTION": "AL 2516 IL FBT",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000165",
+                    "ASSET DESCRIPTION": "AL 3116 IL FBT",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "ASH0000202",
+                    "ASSET DESCRIPTION": "AL 1616 IL FBT",
+                    "MANUFACTURER": "ASHOKYLAND"
+                },
+                {
+                    "ASSET MODEL": "EIC0000178",
+                    "ASSET DESCRIPTION": "EICHER PRO 5025 FBT",
+                    "MANUFACTURER": "EICHER"
+                },
+                {
+                    "ASSET MODEL": "TAT0000091",
+                    "ASSET DESCRIPTION": "TATA LPT 1613 TURBO FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000096",
+                    "ASSET DESCRIPTION": "TATA LPT 2516 TURBO FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000098",
+                    "ASSET DESCRIPTION": "TATA LPT 2516 TURBO SUPER FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000186",
+                    "ASSET DESCRIPTION": "TATA LPT 1613 CUMMINS FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000187",
+                    "ASSET DESCRIPTION": "TATA LPT 1613 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000192",
+                    "ASSET DESCRIPTION": "TATA LPT 2518 CUMMINS FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000193",
+                    "ASSET DESCRIPTION": "TATA LPT 2518 TURBO FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000194",
+                    "ASSET DESCRIPTION": "TATA LPT 3118 CUMMINS FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000294",
+                    "ASSET DESCRIPTION": "TATA LPT 2516 CUMMINS FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000309",
+                    "ASSET DESCRIPTION": "TATA LPT 2516 SUPER TURBO BULKER",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000752",
+                    "ASSET DESCRIPTION": "TATA LPT 1412 FBT",
+                    "MANUFACTURER": "TATA"
+                },
+                {
+                    "ASSET MODEL": "TAT0000782",
+                    "ASSET DESCRIPTION": "TATA ULTRA 1518 FBT",
+                    "MANUFACTURER": "TATA"
+                }
+            ]
+        },
+        {
+            "NAME": "PASSENGER 3WHEELER",
+            "DETAILS": [
+                {
+                    "ASSET MODEL": "BAJ0000015",
+                    "ASSET DESCRIPTION": "BAJAJ RE LPG-P",
+                    "MANUFACTURER": "BAJAJ"
+                },
+                {
+                    "ASSET MODEL": "BAJ0000031",
+                    "ASSET DESCRIPTION": "BAJAJ RE MAXIMA DIESEL-P",
+                    "MANUFACTURER": "BAJAJ"
+                },
+                {
+                    "ASSET MODEL": "BAJ0000032",
+                    "ASSET DESCRIPTION": "BAJAJ RE COMPACT DIESEL-P",
+                    "MANUFACTURER": "BAJAJ"
+                },
+                {
+                    "ASSET MODEL": "BAJ0000039",
+                    "ASSET DESCRIPTION": "BAJAJ RE COMPACT LPG 4S-P",
+                    "MANUFACTURER": "BAJAJ"
+                }
+            ]
+        },
+        {
+            "NAME": "PASSENGER COMMERCIAL",
+            "DETAILS": [
+                {
+                    "ASSET MODEL": "FOR0000026",
+                    "ASSET DESCRIPTION": "FORCE TEMPO TRAVELLER-P",
+                    "MANUFACTURER": "FORCE"
+                },
+                {
+                    "ASSET MODEL": "FOR0000059",
+                    "ASSET DESCRIPTION": "FORCE TEMPO TRAVELLER SCHOOL BUS-P",
+                    "MANUFACTURER": "FORCE"
+                },
+                {
+                    "ASSET MODEL": "FOR0000071",
+                    "ASSET DESCRIPTION": "FORCE TEMPO TRAVELLER AC-P",
+                    "MANUFACTURER": "FORCE"
+                },
+                {
+                    "ASSET MODEL": "MAR0000080",
+                    "ASSET DESCRIPTION": "MARUTI ERTIGA-P",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000106",
+                    "ASSET DESCRIPTION": "MARUTI CELERIO-P",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000305",
+                    "ASSET DESCRIPTION": "MARUTI CIAZ-P",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000405",
+                    "ASSET DESCRIPTION": "MARUTI DZIRE TOUR DIESEL-P",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MARUTI2011",
+                    "ASSET DESCRIPTION": "MARUTI SWIFT DIESEL-P",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MARUTI2012",
+                    "ASSET DESCRIPTION": "MARUTI SWIFT PETROL-P",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MARUTI2014",
+                    "ASSET DESCRIPTION": "MARUTI DZIRE-P",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MARUTI2018",
+                    "ASSET DESCRIPTION": "MARUTI BALENO-P",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "TOY0000006",
+                    "ASSET DESCRIPTION": "TOYOTA INNOVA-P",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000012",
+                    "ASSET DESCRIPTION": "TOYOTA ETIOS-P",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000191",
+                    "ASSET DESCRIPTION": "TOYOTA INNOVA CRYSTA-P",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000228",
+                    "ASSET DESCRIPTION": "TOYOTA ETIOS PLATINUM-P",
+                    "MANUFACTURER": "TOYOTA"
+                }
+            ]
+        },
+        {
+            "NAME": "PRIVATE CAR",
+            "DETAILS": [
+                {
+                    "ASSET MODEL": "HYU0000107",
+                    "ASSET DESCRIPTION": "EON 0.8L IRDE MT ERA PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000127",
+                    "ASSET DESCRIPTION": "I10 GRAND 2ND GEN 1.1 U2 CRDI SPORTZ GLS DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000137",
+                    "ASSET DESCRIPTION": "I10 ASTA 1.2 L GLS PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000139",
+                    "ASSET DESCRIPTION": "I10 GRAND 1.2 KAPPA DUAL VTVT ASTA PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000148",
+                    "ASSET DESCRIPTION": "I10 SPORTZ 1.2 L AT GLS PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000151",
+                    "ASSET DESCRIPTION": "I20 1.2 L ASTA (O) PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000152",
+                    "ASSET DESCRIPTION": "I20 1.4 L ASTA PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000153",
+                    "ASSET DESCRIPTION": "I20 1.4 L ASTA (O) WITH SUNROOF DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000154",
+                    "ASSET DESCRIPTION": "I20 1.4 L ASTA (O) WITH SUNROOF PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000155",
+                    "ASSET DESCRIPTION": "I20 I GEN 1.2 L KAPPA DUAL VTVT ASTA (O) WITH SUNROOF PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000156",
+                    "ASSET DESCRIPTION": "I20 I GEN 1.2 L KAPPA DUAL VTVT ASTA PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000157",
+                    "ASSET DESCRIPTION": "I20 I GEN 1.4L U2 CRDI ASTA DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000158",
+                    "ASSET DESCRIPTION": "I20 I GEN 1.2 L KAPPA DUAL VTVT ERA PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000159",
+                    "ASSET DESCRIPTION": "I20 I GEN 1.4L U2 CRDI ERA DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000160",
+                    "ASSET DESCRIPTION": "I20 I GEN 1.2 L KAPPA DUAL VTVT MAGNA PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000161",
+                    "ASSET DESCRIPTION": "I20 I GEN 1.4L U2 CRDI MAGNA DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000162",
+                    "ASSET DESCRIPTION": "I20 I GEN MAGNA (O) DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000163",
+                    "ASSET DESCRIPTION": "I20 I GEN MAGNA (O) PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000164",
+                    "ASSET DESCRIPTION": "I20 I GEN 1.4L GAMMA VTVT SPORTS AT PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000165",
+                    "ASSET DESCRIPTION": "I20 I GEN 1.2L KAPPA DUAL VTVT SPORTZ PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000166",
+                    "ASSET DESCRIPTION": "I20 I GEN 1.4L U2 CRDI SPORTZ DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000175",
+                    "ASSET DESCRIPTION": "SANTRO XING GL PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000206",
+                    "ASSET DESCRIPTION": "VERNA (FLUDIC) CRDI EX 1.6 DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000210",
+                    "ASSET DESCRIPTION": "VERNA (FLUDIC) CRDI SX 1.6 VGT DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000211",
+                    "ASSET DESCRIPTION": "VERNA (FLUDIC) CRDI SX 1.6 VGT AT DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000219",
+                    "ASSET DESCRIPTION": "VERNA (FLUDIC) VTVT SX 1.6 PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000227",
+                    "ASSET DESCRIPTION": "I20 ELITE 1.2 KAPPA DUAL VTVT ERA PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000228",
+                    "ASSET DESCRIPTION": "I20 ELITE 1.2 KAPPA DUAL VTVT MAGNA PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000229",
+                    "ASSET DESCRIPTION": "I20 ELITE 1.2 KAPPA DUAL VTVT SPORTZ PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000230",
+                    "ASSET DESCRIPTION": "I20 ELITE 1.2 KAPPA DUAL VTVT SPORTZ (O) PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000231",
+                    "ASSET DESCRIPTION": "I20 ELITE 1.2 KAPPA DUAL VTVT ASTA PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000232",
+                    "ASSET DESCRIPTION": "I20 ELITE 1.4L U2 CRDI ERA DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000233",
+                    "ASSET DESCRIPTION": "I20 ELITE 1.4L U2 CRDI MAGNA DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000234",
+                    "ASSET DESCRIPTION": "I20 ELITE 1.4L U2 CRDI SPORTZ DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000235",
+                    "ASSET DESCRIPTION": "I20 ELITE 1.4L U2 CRDI SPORTZ (O) DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000236",
+                    "ASSET DESCRIPTION": "I20 ELITE 1.4L U2 CRDI ASTA DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000237",
+                    "ASSET DESCRIPTION": "I20 ACTIVE 1.2L KAPPA DUAL VTVT BASE PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000238",
+                    "ASSET DESCRIPTION": "I20 ACTIVE 1.2L KAPPA DUAL VTVT S PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000239",
+                    "ASSET DESCRIPTION": "I20 ACTIVE 1.4L U2 CRDI BASE DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000240",
+                    "ASSET DESCRIPTION": "I20 ACTIVE 1.4L U2 CRDI S DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000241",
+                    "ASSET DESCRIPTION": "I20 ACTIVE 1.4L U2 CRDI SX DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000243",
+                    "ASSET DESCRIPTION": "CRETA 1.4L CRDI 6-SPEED MT BASE DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000244",
+                    "ASSET DESCRIPTION": "CRETA 1.4L CRDI 6-SPEED MT S+ DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000245",
+                    "ASSET DESCRIPTION": "CRETA 1.4L CRDI 6-SPEED MT S DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000246",
+                    "ASSET DESCRIPTION": "CRETA 1.6L CRDI VGT 6-SPEED AT SX+ DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000247",
+                    "ASSET DESCRIPTION": "CRETA 1.6L CRDI VGT 6-SPEED MANUAL SX (O) DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000248",
+                    "ASSET DESCRIPTION": "CRETA 1.6L CRDI VGT 6-SPEED MT SX+ DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000249",
+                    "ASSET DESCRIPTION": "CRETA 1.6L CRDI VGT 6-SPEED MT SX DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000250",
+                    "ASSET DESCRIPTION": "CRETA 1.6L DUAL VTVT 6-SPEED MT SX+ PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000251",
+                    "ASSET DESCRIPTION": "CRETA 1.6L DUAL VTVT 6-SPEED MT BASE PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000252",
+                    "ASSET DESCRIPTION": "CRETA 1.6L DUAL VTVT 6-SPEED MT S PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000262",
+                    "ASSET DESCRIPTION": "I20 ACTIVE 1.2L KAPPA DUAL VTVT SX PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000263",
+                    "ASSET DESCRIPTION": "I20 1.4 L ASTA DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000283",
+                    "ASSET DESCRIPTION": "VERNA CRDI SX(O) 1.6 DIESEL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000305",
+                    "ASSET DESCRIPTION": "VERNA VTVT SX(O) 1.6 PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "HYU0000336",
+                    "ASSET DESCRIPTION": "VENUE SX PLUS DCT PETROL 5 SEATER",
+                    "MANUFACTURER": "HYUNDAI"
+                },
+                {
+                    "ASSET MODEL": "MAH0000224",
+                    "ASSET DESCRIPTION": "BOLERO DI AC BS3 7 SEATER",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000235",
+                    "ASSET DESCRIPTION": "BOLERO SLE BS4 G615DIESEL 7 SEATER",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000236",
+                    "ASSET DESCRIPTION": "BOLERO SLX 2WD DIESEL 7 SEATER",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000238",
+                    "ASSET DESCRIPTION": "BOLERO SLX BS 4 DIESEL 7 SEATER",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000240",
+                    "ASSET DESCRIPTION": "BOLERO VLX CRDE DIESEL 7 SEATER",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000242",
+                    "ASSET DESCRIPTION": "BOLERO ZLX BS 3 DIESEL 7 SEATER",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000243",
+                    "ASSET DESCRIPTION": "BOLERO ZLX BS 4 DIESEL 7 SEATER",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000435",
+                    "ASSET DESCRIPTION": "BOLERO ZLX POWER PLUS DIESEL 7 SEATER",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAH0000605",
+                    "ASSET DESCRIPTION": "XUV 300 W8(O) DIESEL 5 SEATER",
+                    "MANUFACTURER": "MAHINDRA"
+                },
+                {
+                    "ASSET MODEL": "MAR0000127",
+                    "ASSET DESCRIPTION": "ALTO K10 VXI PETROL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000183",
+                    "ASSET DESCRIPTION": "SWIFT DZIRE LDI DIESEL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000186",
+                    "ASSET DESCRIPTION": "SWIFT DZIRE VDI DIESEL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000188",
+                    "ASSET DESCRIPTION": "SWIFT DZIRE VXI PETROL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000189",
+                    "ASSET DESCRIPTION": "SWIFT DZIRE ZDI DIESEL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000191",
+                    "ASSET DESCRIPTION": "SWIFT LDI DIESEL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000192",
+                    "ASSET DESCRIPTION": "SWIFT LXI PETROL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000193",
+                    "ASSET DESCRIPTION": "SWIFT VDI DIESEL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000194",
+                    "ASSET DESCRIPTION": "SWIFT VXI PETROL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000195",
+                    "ASSET DESCRIPTION": "SWIFT ZDI DIESEL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000196",
+                    "ASSET DESCRIPTION": "SWIFT ZXI PETROL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000341",
+                    "ASSET DESCRIPTION": "VITARA BREZZA 1.2L ZDI+ MT DIESEL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000383",
+                    "ASSET DESCRIPTION": "SWIFT ZDI PLUS DIESEL 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "MAR0000422",
+                    "ASSET DESCRIPTION": "DZIRE TOUR CNG 5 SEATER",
+                    "MANUFACTURER": "MARUTHI"
+                },
+                {
+                    "ASSET MODEL": "TOY0000067",
+                    "ASSET DESCRIPTION": "ETIOS D 4D GD DIESEL 5 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000068",
+                    "ASSET DESCRIPTION": "ETIOS D 4D GD SP DIESEL 5 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000075",
+                    "ASSET DESCRIPTION": "ETIOS LIVA D 4D GD DIESEL 5 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000079",
+                    "ASSET DESCRIPTION": "ETIOS LIVA G PETROL 5 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000105",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 EV PS DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000106",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 EV PS DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000107",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 EV PS W/O A/C DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000108",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 EV PS W/O A/C DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000109",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 G DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000110",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 G DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000111",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 GX DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000112",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 GX DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000113",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 VX DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000114",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 VX DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000115",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 ZX DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000117",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.0 G1 PETROL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000120",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 EV MS DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000121",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 EV PS DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000122",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 EV PS DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000123",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 EV PS W/O A/C DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000124",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 EV PS W/O A/C DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000125",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 G DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000126",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 G DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000127",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 G1 DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000128",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 GX DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000129",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 GX DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000130",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 V DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000131",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 V DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000132",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 VX DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000133",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 VX DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000134",
+                    "ASSET DESCRIPTION": "INNOVA EURO 4 2.5 ZX DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000181",
+                    "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 G MT DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000182",
+                    "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 G MT DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000183",
+                    "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 GX MT DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000184",
+                    "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 GX MT DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000185",
+                    "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 VX MT DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000186",
+                    "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 VX MT DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000187",
+                    "ASSET DESCRIPTION": "INNOVA CRYSTA 2.4 ZX MT DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000188",
+                    "ASSET DESCRIPTION": "INNOVA CRYSTA 2.8 GX AT DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000189",
+                    "ASSET DESCRIPTION": "INNOVA CRYSTA 2.8 GX AT DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000190",
+                    "ASSET DESCRIPTION": "INNOVA CRYSTA 2.8 ZX AT DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000208",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 V DIESEL 7 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000209",
+                    "ASSET DESCRIPTION": "INNOVA EURO 3 2.5 V DIESEL 8 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "TOY0000226",
+                    "ASSET DESCRIPTION": "GLANZA V PETROL 5 SEATER",
+                    "MANUFACTURER": "TOYOTA"
+                },
+                {
+                    "ASSET MODEL": "VKS0000032",
+                    "ASSET DESCRIPTION": "POLO 1.2L MT COMFORTLINE PETROL 5 SEATER",
+                    "MANUFACTURER": "VOLKSWAGEN"
+                },
+                {
+                    "ASSET MODEL": "VKS0000035",
+                    "ASSET DESCRIPTION": "POLO 1.5L MT HIGHLINE DIESEL 5 SEATER",
+                    "MANUFACTURER": "VOLKSWAGEN"
+                }
+            ]
+        },
+        {
+            "NAME": "TWO WHEELER",
+            "DETAILS": [
+                {
+                    "ASSET MODEL": "ENF2W00004",
+                    "ASSET DESCRIPTION": "ROYAL ENFIELD CLASSIC 350",
+                    "MANUFACTURER": "ENFIELD"
+                }
+            ]
         }
     ]
 }
