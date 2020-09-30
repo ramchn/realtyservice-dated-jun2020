@@ -1,5 +1,5 @@
 ﻿{
-    "SETTINGS": {"finance_interest_rate":"12"},
+    "SETTINGS": {"finance_interest_rate":"12","premium_rates":[{"2020":"9875"},{"2019":"9225"},{"2018":"8675"},{"2017":"8025"},{"2016":"7550"},{"2015":"7075"},{"2014":"6450"},{"2013":"5950"},{"2012":"5350"},{"2011":"4975"},{"2010":"4425"}]},
     "VEHICLE SEGMENTS":[
         {
             "NAME": "CONSTRUCTION VEHICLE",
