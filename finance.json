@@ -3,8 +3,8 @@
     "VEHICLE SEGMENTS":[
         {
             "NAME": "CONSTRUCTION VEHICLE",
-            "ICONVALUE": "0xe805",
-            "ICONSIZE": "50",
+            "ICONVALUE": "0xe809",
+            "ICONSIZE": "47",
             "DETAILS": [
                 {
                     "ASSET MODEL": "ASH0000072",
@@ -96,7 +96,7 @@
         {
             "NAME": "FARM EQUIPMENT",
             "ICONVALUE": "0xe812",
-            "ICONSIZE": "30",
+            "ICONSIZE": "40",
             "DETAILS": [
                 {
                     "ASSET MODEL": "MAH0000068",
@@ -128,7 +128,7 @@
         {
             "NAME": "LCV",
             "ICONVALUE": "0xe806",
-            "ICONSIZE": "50",
+            "ICONSIZE": "47",
             "DETAILS": [
                 {
                     "ASSET MODEL": "ASH0000190",
@@ -430,7 +430,7 @@
         {
             "NAME": "MACHINERY",
             "ICONVALUE": "0xe80b",
-            "ICONSIZE": "50",
+            "ICONSIZE": "47",
             "DETAILS": [
                 {
                     "ASSET MODEL": "ACL0000002",
@@ -457,7 +457,7 @@
         {
             "NAME": "MHCV",
             "ICONVALUE": "0xe810",
-            "ICONSIZE": "40",
+            "ICONSIZE": "45",
             "DETAILS": [
                 {
                     "ASSET MODEL": "ASH0000088",
@@ -559,7 +559,7 @@
         {
             "NAME": "PASSENGER 3WHEELER",
             "ICONVALUE": "0xe80e",
-            "ICONSIZE": "30",
+            "ICONSIZE": "40",
             "DETAILS": [
                 {
                     "ASSET MODEL": "BAJ0000015",
@@ -586,7 +586,7 @@
         {
             "NAME": "PASSENGER COMMERCIAL",
             "ICONVALUE": "0xe805",
-            "ICONSIZE": "40",
+            "ICONSIZE": "45",
             "DETAILS": [
                 {
                     "ASSET MODEL": "FOR0000026",
@@ -668,7 +668,7 @@
         {
             "NAME": "PRIVATE CAR",
             "ICONVALUE": "0xe814",
-            "ICONSIZE": "50",
+            "ICONSIZE": "47",
             "DETAILS": [
                 {
                     "ASSET MODEL": "HYU0000107",
@@ -1300,7 +1300,7 @@
         {
             "NAME": "TWO WHEELER",
             "ICONVALUE": "0xe80d",
-            "ICONSIZE": "50",
+            "ICONSIZE": "47",
             "DETAILS": [
                 {
                     "ASSET MODEL": "ENF2W00004",
